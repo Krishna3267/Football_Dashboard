@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Encode+Sans+SC:wght@200;300;400&family=Otomanopee+One&display=swap');
+
+.preloader{
+  width: 100%;
+	height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+body {
+  background-color: #cce6ff !important;
+  
+  margin: 0;
+}
+
+.navbar{
+  background-color:transparent;
+  font-family: 'Encode Sans SC', sans-serif;
+  font-weight: 1000;
+}
+
+.navbar .nav-item{
+  padding-right: 10%;
+   
+}
+/* .navbar .nav-item:hover{
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+} */
+
+.dropdown-menu{
+  /* border:3px solid yellow !important; */
+  /* width: auto; */
+  padding: 5px 20px;
+}
+
+.dropdown-menu div .dropdown-item{
+  padding-left: 14px;
+  /* width: auto; */
+}
+
+.dropdown-menu div .dropdown-item:hover{
+  background-color: transparent !important;
+  color: salmon;
+  font-weight: 1000;
+  transition: 0.2s;
+}
+ 
+
+.imprint{
+  height: auto;
+  width: 40px;
+  padding-right: 5px;
+}
+
+/* .navbar-nav{
+  margin-right: 220px;
+} */
+
+.logo{
+  height: 50px;
+  width: 50px;
+}
+
+.card{
+  height: 220px;
+  margin-top: 5px;
+}
+
+.card img{
+  height: 125px;
+}
+
+#mid{
+  margin-top: 50px;
+}
+
+.homeimg{
+  
+  height: 450px;
+  animation: animateup 2s ease-in-out infinite alternate-reverse both;
+
+}
+
+@-webkit-keyframes animateup{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes animateup{
+  0%{
+    transform: translateY(10px);
+  }
+  100%{
+    transform: translateY(-10px);
+  }
+}
+
+Button{
+  color: purple;
+}
+
+.classes.root{
+  margin-top: 100px;
+}
+
+
+.footer{
+  margin-top: 4%;
+	left: 0;
+  right: 0;
+  position: relative;
+	padding-top: 25px;
+  padding-bottom: 10px;
+	text-align: center;
+	color: #cce6ff;
+	height: auto;
+	width: 100vw;
+	background-color: rgba(0,0,0,0.7);
+	 
+}
+
+.both{
+  margin-left: 60%;
+}
+
+.heading{
+  margin-left: 6%;
+}
+
